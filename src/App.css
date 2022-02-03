@@ -5,16 +5,19 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  background-color: rgba(53, 221, 213, 0.7);
-}
-
 .country-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 50%;
+  background-color: lightgray;
+  border-radius: 1rem;
+  width: 40vw;
+}
+
+.countryInput {
+  width: 40vw;
 }
 
 .currency {
@@ -37,6 +40,14 @@ body {
   align-items: center;
 }
 
+#confirm-btn {
+  margin: 0 5vw;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
 #country-display {
   display: flex;
   flex-direction: row;
@@ -45,5 +56,14 @@ body {
 
 #header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding: 1rem 0;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem 0;
 }
