@@ -97,8 +97,8 @@ function App() {
   };
 
   const convertCur = (e) => {
-    let converted = Number((e.target.value * exchangeRate).toFixed(2));
-    setConvertedCur(converted.toLocaleString());
+    let converted = (e.target.value * exchangeRate).toFixed(2);
+    setConvertedCur(converted);
   };
 
   const renderError = (msg) => {

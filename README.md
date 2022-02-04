@@ -1,6 +1,6 @@
 # Trip Planner
 
-A React app that uses multiple APIs to fetch country information.
+A React app that uses multiple APIs to fetch country information and compare them.
 
 Will show the country flags, as well as their capital, followed by its local time, temperature and weather status.
 

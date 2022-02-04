@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
   width: 50%;
   background-color: lightgray;
   border-radius: 1rem;

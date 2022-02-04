@@ -15,7 +15,12 @@ export default function Country(props) {
         <h3>Current Temp: {props.weather.current.temp_c} &#176;C</h3>
         <img src={props.weather.current.condition.icon}></img>
       </div>
-
+      <h3>
+        Language: {props.country.languages[0].name}{" "}
+        {props.country.languages[0].name === "English"
+          ? ""
+          : "(" + props.country.languages[0].nativeName + ")"}
+      </h3>
       <div className="currency">
         <h1>{props.country.currencies[0].symbol}</h1>
         {props.label === "FROM" ? (
