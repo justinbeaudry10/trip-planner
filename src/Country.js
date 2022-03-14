@@ -13,7 +13,10 @@ export default function Country(props) {
       <h3>Local Time {props.weather.location.localtime.slice(-5)}</h3>
       <div className="weather">
         <h3>Current Temp: {props.weather.current.temp_c} &#176;C</h3>
-        <img src={props.weather.current.condition.icon}></img>
+        <img
+          alt={props.weather.current.condition}
+          src={props.weather.current.condition.icon}
+        ></img>
       </div>
       <h3>
         Language: {props.country.languages[0].name}{" "}

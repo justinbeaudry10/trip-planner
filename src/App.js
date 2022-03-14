@@ -45,7 +45,7 @@ function App() {
         );
       })
       .catch((err) => renderError(`${err}`));
-  }, [destCountry]);
+  }, [destCountry, startCountry]);
 
   const searchCountry = () => {
     let startCountry = startCountryInputRef.current.value;
