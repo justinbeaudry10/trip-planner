@@ -19,7 +19,7 @@ function App() {
         setStartCountry(data[0]);
 
         getJSON(
-          `http://api.weatherapi.com/v1/current.json?key=bb376e439b044a33ad4205730220202&q=${data[0].capital}&aqi=no`
+          `https://api.weatherapi.com/v1/current.json?key=bb376e439b044a33ad4205730220202&q=${data[0].capital}&aqi=no`
         ).then((data) => setStartWeather(data));
       })
       .catch((err) => renderError(`${err}`));
@@ -29,7 +29,7 @@ function App() {
     if (!destCountry) return;
 
     getJSON(
-      `http://api.weatherapi.com/v1/current.json?key=bb376e439b044a33ad4205730220202&q=${
+      `https://api.weatherapi.com/v1/current.json?key=bb376e439b044a33ad4205730220202&q=${
         destCountry.capital.split(",")[0]
       }&aqi=no`
     )
