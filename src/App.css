@@ -5,6 +5,30 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  background-color: darkslategray;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+button {
+  font-size: large;
+}
+
+input {
+  height: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-size: large;
+}
+
+.currency h1 {
+  color: black;
+}
+
 .country-card {
   display: flex;
   flex-direction: column;
@@ -12,7 +36,7 @@
   align-items: center;
   padding: 1rem;
   width: 50%;
-  background-color: lightgray;
+  background-color: beige;
   border-radius: 1rem;
   width: 40vw;
 }

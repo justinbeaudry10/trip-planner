@@ -108,6 +108,7 @@ function App() {
   return (
     <div className="App">
       <div id="header">
+        <h1>Country Comparisons</h1>
         <div id="inputs">
           <input
             className="countryInput"
@@ -144,7 +145,7 @@ function App() {
             />
           </>
         ) : (
-          <h1>Please Enter a Destination</h1>
+          <h1>Please Enter 2 Countries</h1>
         )}
       </div>
     </div>
