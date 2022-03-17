@@ -1,7 +1,6 @@
 * {
   /* box-sizing: inherit; */
   padding: 0;
-  margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -11,11 +10,8 @@ body {
 
 h1 {
   text-align: center;
+  margin-bottom: 2.5rem;
   color: white;
-}
-
-button {
-  font-size: large;
 }
 
 input {
@@ -26,6 +22,7 @@ input {
 }
 
 .currency h1 {
+  margin-bottom: 1.5rem;
   color: black;
 }
 
@@ -48,6 +45,7 @@ input {
 .currency {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .flag {
@@ -66,7 +64,8 @@ input {
 }
 
 #confirm-btn {
-  margin: 0 5vw;
+  font-size: large;
+  margin: 2rem 5vw;
   background-color: black;
   color: white;
   padding: 0.5rem;
